@@ -12,28 +12,29 @@
 
 <body>
     <div class="container" style="margin-top: 2rem;">
-    <div class="mx-auto" style="width: 65rem;">
+    <div class="mx-auto" style="width: 70rem;">
     <div class="card">
         <div class="card-header">
           Payment Method 
         </div>
         <div class="card-body">
             <form class="row g-4">
-                <div class="row alert alert-danger" role="alert">
+                <div id="alert" class="alert alert-danger" role="alert" style="width: 68rem;">
                     Some fields are Missing!
                   </div>
+                  
                 <div class="col-md-5">
                   <label for="inputEmail4" class="form-label">Card #</label>
                   <input type="email" class="form-control" id="inputEmail4">
                 </div>
-                <div class="col-md-3">
+                <div id="input2" class="col-md-3">
                   <label for="inputPassword4" class="form-label">CVC #</label>
                   <input type="text" class="form-control" id="inputText">
                 </div>
                 
-                <i id="iconDollar" class="fa-solid fa-dollar-sign"></i>
                 
-                <div class="col-md-3">
+                
+                <div id="input3" class="col-md-3">
                   <label for="inputAddress" class="form-label">Amount</label>
                   <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                 </div>
@@ -69,6 +70,7 @@
                 </div>
               </form>
         </div>
+      
         <div class="card-footer">
             Footer
         </div>

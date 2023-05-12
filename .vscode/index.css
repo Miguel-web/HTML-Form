@@ -1,6 +1,11 @@
+#alert {
+    margin-left: 11px;
+}
+
 #iconDollar {
-    width: auto;
+    width: 1rem;
     height: 1rem;
     margin-top: 65px;
     padding-right: 0;
+    
 }
