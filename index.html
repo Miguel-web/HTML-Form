@@ -70,26 +70,53 @@
                   <input type="text" class="form-control" id="inputZip">
                 </div>
               </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
+              <div class="form-row justify-content-between">
+                <div class="form-group">
                   <h5>We accept:</h5>
-                  <button type="none" class="btn btn-dark  ">
-                    <input type="radio"><i class="fab fa-cc-mastercard pr-4"></i>
+                  <button type="none" class="custom-control custom-radio custom-control-inline btn btn-dark form-row">
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadioInline1" name="customRadioInline1"
+                        class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline1"><i
+                          class="fab fa-cc-mastercard pr-4"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadioInline2" name="customRadioInline1"
+                        class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline2"><i
+                          class="fab fa-cc-visa pr-4"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadioInline3" name="customRadioInline1"
+                        class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline3"><i
+                          class="fab fa-cc-diners-club pr-4"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadioInline4" name="customRadioInline1"
+                        class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline4"><i
+                          class="fab fa-cc-amex pr-4"></i></label>
+                    </div>
+                </div>
+
+
+                <!-- <input type="radio"><i class="fab fa-cc-mastercard pr-4"></i>
                     <input type="radio"><i class="fab fa-cc-visa pr-4"></i>
                     <input type="radio"><i class="fab fa-cc-diners-club pr-4"></i>
                     <input type="radio"><i class="fab fa-cc-amex pr-4"></i>
                   </button>
                 </div>
-                <div class="col-6 ">
+
+                -->
+                <div class="col-6">
                   <form>
                     <label for="inputMessage" class="col">Message:</label>
-                    <textarea id="inputMessage" name="inputMessage" rows="4" cols="50">
-
-                                                                    </textarea>
+                    <textarea id="inputMessage" name="inputMessage" rows="4" cols="50"></textarea>
                     <br><br>
                   </form>
                 </div>
-              </div>
+
             </form>
           </div>
           <div class="card-footer text-muted">
